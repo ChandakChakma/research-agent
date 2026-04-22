@@ -1,4 +1,4 @@
-# 🔬 Research Agent
+# Research Agent
 
 An AI-powered research assistant built with **LangGraph**, **FastAPI**, and **Pinecone** that autonomously searches the web, fetches articles, stores knowledge, and writes structured research reports — with optional human-in-the-loop approval.
 
@@ -16,7 +16,7 @@ An AI-powered research assistant built with **LangGraph**, **FastAPI**, and **Pi
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Request
@@ -24,9 +24,9 @@ User Request
      ▼
 ┌─────────────┐
 │ cache_check │ ──── Cache HIT ────────────────────────┐
-└─────────────┘                                         │
-     │ Cache MISS                                       │
-     ▼                                                  │
+└─────────────┘                                        │
+     │ Cache MISS                                      │
+     ▼                                                 │
 ┌────────┐    ┌───────┐    ┌────────┐    ┌──────────┐  │
 │ search │───▶│ fetch │───▶│ ingest │───▶│ retrieve │◀─┘
 └────────┘    └───────┘    └────────┘    └──────────┘
@@ -78,7 +78,7 @@ research-agent/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/research-agent.git
+git clone https://github.com/ChandakChakma/research-agent.git
 cd research-agent
 ```
 
@@ -285,8 +285,3 @@ Key constants in code:
 | API server | [FastAPI](https://fastapi.tiangolo.com/) + [Uvicorn](https://www.uvicorn.org/) |
 | Streaming | [sse-starlette](https://github.com/sysid/sse-starlette) |
 
----
-
-## 📄 License
-
-MIT License — feel free to use, modify, and distribute.
