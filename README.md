@@ -4,7 +4,7 @@ An AI-powered research assistant built with **LangGraph**, **FastAPI**, and **Pi
 
 ---
 
-## ✨ Features
+## Features
 
 - **Smart Caching** — Checks Pinecone before searching; skips the full pipeline on cache hits
 - **Human-in-the-Loop** — Pauses after search results so you can approve URLs before fetching
@@ -45,7 +45,7 @@ User Request
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 research-agent/
@@ -66,7 +66,7 @@ research-agent/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -120,7 +120,7 @@ Interactive docs at `http://127.0.0.1:8000/docs`.
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### `GET /health`
 Health check.
@@ -204,7 +204,7 @@ Stream the report generation in real time using Server-Sent Events.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Make sure the server is running, then:
 
@@ -221,7 +221,7 @@ python test.py stream
 
 ---
 
-## 🔄 Pipeline Flow
+## Pipeline Flow
 
 ### Full Pipeline (Cache Miss)
 
@@ -247,7 +247,7 @@ POST /research/start
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 | Environment Variable | Description | Default |
 |---|---|---|
@@ -271,7 +271,7 @@ Key constants in code:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
